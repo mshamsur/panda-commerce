@@ -23,6 +23,7 @@
 }
 .cat1, .cat2, .cat3 {
     padding: 10px 30px;
+    border-radius: 10px;
    }
    .cat1{
        background-color: palevioletred;
@@ -32,4 +33,29 @@
    }
    .cat3{
        background-color: blue;
+   }
+   .categories h1{
+       color:white;
+   }
+   .categories img{
+       width: 100px;
+   }
+   .card{
+       border:none;
+       border-radius: 10px;
+       box-shadow: 5px 5px 10px lightgrey;
+   }
+   .card-footer{
+       background-color: white;
+       border-top: none;
+   }
+   #subscribe{
+       height: 200px;
+   }
+   #subscribe h6{
+       color:gray;
+   }
+   footer{
+       text-align: center;
+       color:gray;
    }
